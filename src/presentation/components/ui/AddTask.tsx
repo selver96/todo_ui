@@ -1,8 +1,7 @@
-import React, { FC, useCallback, useEffect, useState } from 'react';
+import React, { FC, useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import { MdTitle } from 'react-icons/md';
 import { useDispatch } from 'react-redux';
-import useInput from '../../../application/hooks/useInput';
 import { useTypedSelector } from '../../../application/hooks/useTypedSelector';
 import { TaskActionCreators } from '../../../application/redux/reducers/task/action-creators';
 import Input from './FormItem/Input/Input';
@@ -15,10 +14,10 @@ interface Props {
 }
 
 const AddTask: FC<Props> = (props) => {
-    const { id, show, handleClose, handleShow } = props;
+    const { id, show, handleClose } = props;
     const { user } = useTypedSelector(state => state.auth);
     const dispatch = useDispatch();
-    const { taskGroup, error, isLoading} = useTypedSelector(state => state.task);
+    const { isLoading} = useTypedSelector(state => state.task);
     const [title, setTitle] = useState('');
     const [date, setDate] = useState('');
 

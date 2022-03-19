@@ -1,4 +1,4 @@
-import { AuthResponse, RegistrationUser } from '../../application/models/models';
+import { RegistrationUser } from '../../application/models/models';
 import $api from "../api";
 
 export default class AutService {

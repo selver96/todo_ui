@@ -1,12 +1,10 @@
-import React, { FC, useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import React, { FC } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { useTypedSelector } from '../../../application/hooks/useTypedSelector';
 import { privateRouters, publicRouters } from '../../../application/route';
 
 
 const AppRoutes:FC = () => {
-    const dispatch = useDispatch();
     const { isAuth } = useTypedSelector(state => state.auth);
 
     return (

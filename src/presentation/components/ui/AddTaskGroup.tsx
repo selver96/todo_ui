@@ -14,13 +14,13 @@ interface Props {
 }
 
 const AddTaskGroup: FC<Props> = (props) => {
-    const { show, handleClose, handleShow } = props;
+    const { show, handleClose } = props;
     const title = useInput('');
 
     const [isCompleted, setIsCompleted] = useState(false);
 
     const dispatch = useDispatch();
-    const { taskGroup, error, isLoading} = useTypedSelector(state => state.task);
+    const { isLoading} = useTypedSelector(state => state.task);
 
     
     const addTask = () => {

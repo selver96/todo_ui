@@ -1,5 +1,5 @@
 import { TaskAction, TaskActionEnum, TaskState } from './types';
-import { ITaskGroup, ITask } from '../../../models/ITask';
+import { ITaskGroup } from '../../../models/ITask';
 
 
 const initialState: TaskState = {

@@ -10,9 +10,8 @@ import { TaskActionCreators } from '../../application/redux/reducers/task/action
 
 const Home = () => {
     const [show, setShow] = useState(false);
-
     const dispatch = useDispatch();
-    const { taskGroup, error, isLoading } = useTypedSelector(state => state.task);
+    const { taskGroup, isLoading } = useTypedSelector(state => state.task);
 
 
     useEffect(() => {

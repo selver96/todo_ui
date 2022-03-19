@@ -13,7 +13,6 @@ import { TaskActionCreators } from '../application/redux/reducers/task/action-cr
 const App: FC = () => {
   const dispatch = useDispatch();
   const { isAuth } = useTypedSelector(state => state.auth);
-  const { taskGroup, error, isLoading } = useTypedSelector(state => state.task);
   const location = useLocation();
   const currentUrl = location.pathname;
 
@@ -35,7 +34,7 @@ const App: FC = () => {
       :
       <>
         {
-          currentUrl == '/registration'
+          currentUrl === '/registration'
             ?
             <section className="App">
               <AppRoutes />

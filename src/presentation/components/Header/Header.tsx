@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react';
+import React, { FC } from 'react';
 
 import { FiChevronUp } from "react-icons/fi";
 import { useDispatch } from 'react-redux';
