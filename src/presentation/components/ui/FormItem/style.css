@@ -1,0 +1,97 @@
+.input__custom{
+    display: flex;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: white;
+    border: 1px solid #198699;
+}
+
+.input__custom svg {
+    color: black;
+}
+
+.input__custom:focus-within{
+    border-color: #0d2024;
+}
+
+.input__custom input{
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.input__custom input::placeholder{
+    color: rgb(77, 73, 73);
+    font-family: 'Cuprum', sans-serif;
+}
+
+.input__custom input:focus{
+    outline: none;
+    border-color: #0d2024;
+}
+
+.password__custom{
+    display: flex;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: white;
+    border: 1px solid #198699;
+}
+
+.password__custom svg{
+    color: black;
+}
+
+.password__custom:focus-within{
+    border-color: #0d2024;
+}
+
+
+.password__custom input{
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.password__custom input::placeholder{
+    color: rgb(77, 73, 73);
+    font-family: 'Cuprum', sans-serif;
+}
+
+.password__custom input:focus{
+    outline: none;
+    border-color: #0d2024;
+}
+
+.pass__eyes{
+    cursor: pointer;
+}
+
+.pass__eyes svg{
+    color: black;
+}
+
+.dropdown__custom{
+    border-radius: 5px;
+    border: 1px solid #f8bfe9;
+}
+
+
+.dropdown__custom:focus-within{
+    border-color: #bd2594;
+}
+
+.dropdown__custom select{
+    background-color: white;
+    color: #720554;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.dropdown__custom select:focus{
+    outline: none;
+    border-color: #e305a8;
+}
