@@ -1,0 +1,68 @@
+.reg__form{
+    width: 410px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 5px;
+    background-color: #dedbe2;
+}
+
+.reg__title > p {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px;
+}
+
+.reg__form__item{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.reg__form__item svg{
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+}
+
+.reg__form__item input{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.pass__eyes svg{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.reg__form__btn__reg{
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.reg__form__btn__reg > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+}
+
+.reg__form__btn__reg > a > p{
+    color: white;
+    font-size: 20px;
+}
+
+.reg__form__btn__reg:hover{
+    background-color: rgb(47, 45, 45);
+}

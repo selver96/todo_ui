@@ -1,0 +1,110 @@
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 50px;
+    background-color: #4d4d4d;
+}
+
+.profile__icon{
+    position: relative;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+    margin-right: 15px;
+    background-color: white;
+}
+
+.profile__icon{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.profile__up{
+    display: none;
+    position: absolute;
+    top: 95%;
+    right: 17%;
+    z-index: 1;
+    
+}
+
+.profile__up svg{
+    width: 25px;
+    height: 25px;
+}
+
+.profile__block{
+    display: none;
+    position: absolute;
+    top: 140%;
+    right: 0.5%;
+    width: 300px;
+    height: 150px;
+    background-color: #fefffe;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.21); 
+    box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.21);
+}
+
+.profile__icon:hover .profile__up{
+    display: block;
+}
+
+.profile__icon:hover .profile__block{
+    display: block;
+}
+
+.profile__block__top{
+    margin-top: 5px;
+}
+
+.profile__block__top > p {
+    text-align: center;
+    color: #738095;
+}
+
+.profile__body{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 1px solid #8f9295;
+    border-bottom: 1px solid #8f9295;
+}
+
+.profile__body > p:nth-child(1){
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 10px 5px 10px;
+    color: #253758;
+}
+
+.profile__body > p:nth-child(2){
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #8f9295;
+}
+
+.logout__btn{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.logout__btn > a{
+    font-size: 20px;
+    color: black;
+}
+
+.logout__btn > a:hover{
+    color: rgb(61, 60, 60);
+}

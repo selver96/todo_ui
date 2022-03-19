@@ -1,0 +1,143 @@
+.list-card{
+    
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #e4e5e9;
+}
+
+.list-card-top{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+.list-card-top p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.list-card-top svg{
+    cursor: pointer;
+}
+
+.list-card-body{
+    width: 100%;
+    
+    max-height: 400px;
+    overflow: auto;
+}
+
+.list-card-items{
+    margin: 10px;
+    min-height: 80px;
+ }
+
+.list-card-item{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.list-card-item > div{
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* -webkit-box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.21); 
+    box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.21); */
+}
+
+.list-card-item > div svg{
+   cursor: pointer;
+}
+
+.list-card-item > div > p{
+    font-size: 18px;
+    margin: 5px;
+}
+
+.list-card-add-btn{
+    margin-top: 20px;
+    margin-left: 10px
+}
+
+.list-card-add-btn > a{
+    display: flex;
+    color: #7d889b;
+    font-size: 18px;
+}
+
+.list-card-add-btn > a > p{
+   margin-left: 5px;
+}
+.item__menu{
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 60%;
+    right: 5%;
+    background-color: #fff;
+    border: 1px solid black;
+    z-index: 3;
+}
+
+.item__menu a{
+    display: flex;
+    margin: 5px;
+}
+
+.item__menu a:hover{
+    background-color: #7d889b;
+}
+
+.item__menu a > p{
+    margin-left: 2px;
+}
+
+.sub__item__menu{
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: -20%;
+    right: 14%;
+    background-color: #fff;
+    border: 1px solid black;
+    z-index: 3;
+}
+
+.sub__item__menu a > p{
+    margin-left: 2px;
+}
+
+.sub__item__menu a{
+    display: flex;
+    margin: 5px;
+}
+
+.sub__item__menu a:hover{
+    background-color: #7d889b;
+}
+
+.move__task__item{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.move__task__item select{
+    cursor: pointer;
+    width: 395px;
+    height: 40px;
+    font-size: 20px;
+}

@@ -1,0 +1,97 @@
+.home{
+    width: 100%;
+}
+
+.home__content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content__item{
+    
+}
+
+.home__add__card__btn{
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.2;
+    
+}
+
+.home__add__card__btn > a{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.home__add__card__btn > a > p{
+    margin-left: 5px;
+    color: white;
+}
+
+.home__add__card__btn > a > svg{
+    color: white;
+}
+
+
+.add__task__item{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.add__task__item input{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.add__task__item svg{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.add__task__due__date{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.add__task__due__date p{
+    margin-top: 5px;
+    font-size: 26px;
+}
+
+.add__task__due__date input{
+    width: 270px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.checkbox__form__item{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.checkbox__form__item input{
+   cursor: pointer;
+}
+
+.checkbox__form__item label{
+    margin-left: 5px;
+    font-size: 20px;
+}
